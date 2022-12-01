@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+</head>
+<body>
+	<form action="LoginServlet" method="post">
+	<table>
+		<tr>
+			<td>会員認証画面</td>
+		</tr>
+		<tr>
+			<td>メールアドレス</td>
+		</tr>
+		<tr>
+			<td><input type="text" name="mailaddress" required></td>
+		</tr>
+				<tr>
+			<td>パスワード</td>
+		</tr>
+		<tr>
+			<td><input type="password" name="password" required></td>
+		</tr>
+		<tr>
+			<td><input type="hidden" name="page_num" value="0">
+			<input type="submit" value="送信" name="button">
+			<input type="reset" value="リセット" name="button2">
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
